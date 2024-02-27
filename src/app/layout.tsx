@@ -5,6 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 
+
 export const metadata: Metadata = {
   applicationName:"Vk Dev Studio - Innovative Solutions for Web and Mobile Development",
   // authors:"Vinod Kumar"
