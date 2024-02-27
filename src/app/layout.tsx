@@ -1,17 +1,13 @@
-import type { Metadata } from "next";
+import {  Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-interface Metadata{
-  applicationName:string,
-  authors:string
-}
 
 export const metadata: Metadata = {
   applicationName:"Vk Dev Studio - Innovative Solutions for Web and Mobile Development",
-  authors:"Vinod Kumar"
+  // authors:"Vinod Kumar"
 };
 
 
