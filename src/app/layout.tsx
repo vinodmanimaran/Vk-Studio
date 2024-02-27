@@ -4,22 +4,14 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+interface Metadata{
+  applicationName:string,
+  authors:string
+}
+
 export const metadata: Metadata = {
-  title: "Vk Dev Studio - Innovative Solutions for Web and Mobile Development",
-  description: "Vk Dev Studio is a leading development studio, specializing in creating cutting-edge technical solutions for web and mobile applications. Explore our expertise and elevate your digital presence.",
-  keywords: ["development studio", "tech solutions", "web development", "mobile development", "innovative solutions", "software engineering", "digital transformation"],
-  author: "Vk Dev Studio",
-  image: "./logo.jpg",  
-  language: "en",
-  icons:"./logo.jpg",
-  charset: "UTF-8",
-  robots: "index, follow",
-  og: {
-    type: "website",
-    title: "Vk Dev Studio - Innovative Solutions for Web and Mobile Development",
-    description: "Vk Dev Studio is a leading development studio, specializing in creating cutting-edge technical solutions for web and mobile applications. Explore our expertise and elevate your digital presence.",
-    image: "./logo.jpg",  
-  },
+  applicationName:"Vk Dev Studio - Innovative Solutions for Web and Mobile Development",
+  authors:"Vinod Kumar"
 };
 
 
